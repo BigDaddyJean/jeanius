@@ -1,0 +1,30 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+      border-bottom: 1px solid #aaa;
+      cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .list li:hover {
+    background: #eee;
+  }
+  
+  
+  .list a {
+    color: #111;
+    text-decoration: none;
+  }
+  
+  .list span {
+      padding: 0.5rem 1rem;
+      text-transform: capitalize;
+  }
+  
+  .list span:nth-child(2) {
+    color: #12835b;
+  }
